@@ -6,7 +6,9 @@ Maintainer: Omprakash Kasaraneni.
 
 **Status:** Terraform initialization, planning and deployment completed.
 All 12 resources were created. Systems Manager connectivity and Docker host
-readiness were verified. Application deployment and cleanup remain pending.
+readiness were verified. Jenkins deployed the application successfully, and direct
+EC2 API checks passed. Cleanup completed with all 12 Terraform-managed resources
+destroyed; the demo is no longer live. See [validation](docs/validation.md).
 
 ## Architecture
 
