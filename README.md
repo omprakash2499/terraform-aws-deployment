@@ -88,7 +88,7 @@ Then review `terraform plan -destroy`, run `terraform destroy`, and confirm the
 named EC2 instance, volumes, repository and VPC are gone. Keep state until the
 cleanup succeeds. Do not use account-wide deletion commands.
 
-## Evidence
+## Deployment Verification
 
 Save a redacted plan, no-ingress security group, successful SSM session, ECR
 image digest, health response and completed destroy result. See docs/validation.md.
